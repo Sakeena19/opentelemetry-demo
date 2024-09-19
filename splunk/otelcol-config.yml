@@ -115,7 +115,7 @@ exporters:
     index: "astronomyshop"
     profiling_data_enabled: false
     tls:
-      insecure_skip_verify: false
+      insecure_skip_verify: true
 
 service:
   extensions: [health_check, http_forwarder, zpages]
